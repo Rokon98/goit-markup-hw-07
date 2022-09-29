@@ -22,7 +22,7 @@ ul{
     margin: 0;
     padding: 0;
 }
-.logo-text{
+.logo-nav-text__link{
     text-decoration: none;
         font-family: 'Raleway', sans-serif;
         font-style: normal;
@@ -45,7 +45,7 @@ ul{
         display: inline-block;
         margin-bottom: 20px;
 }
-.logo-list-item{
+.logo-list__item{
     text-decoration: none;
 }
 .pozi{
@@ -63,10 +63,10 @@ ul{
     background-color: #2196F3;
 
 }
-.contacts-mail{
+.contacts-mail__link{
     text-decoration: none;
 }
-.contacts-tel{
+.contacts-tel__link{
     text-decoration: none;
 }
 .end-address{
@@ -112,18 +112,18 @@ font-family: 'Raleway', sans-serif;
 .logo-list{
     display: flex;
 } 
-.logo-item:not(:last-child){
+.logo__item:not(:last-child){
     margin-right: 50px;
 }
 .header-container{
     display: flex;
     align-items: center;
 }
-.logo-text{
+.logo-nav-text__link{
     margin-right: 93px;
 }
 
-.logo-list-item{
+.logo-list__item{
     font-weight: 500;
         font-size: 14px;
         line-height: calc(16/14);
@@ -136,7 +136,7 @@ font-family: 'Raleway', sans-serif;
     color: #2196F3;
 }
 
-.logo-list-item:hover{
+.logo-list__item:hover{
     color: #2196F3;
 }
 .contacts-list{
@@ -150,7 +150,7 @@ font-family: 'Raleway', sans-serif;
     margin-left: 0;
 }
 
-.contacts-mail{
+.contacts-mail__link{
        display: flex;
        align-items: center;
        gap: 10px;
@@ -166,11 +166,11 @@ font-family: 'Raleway', sans-serif;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contacts-mail:hover{
+.contacts-mail__link:hover{
     color: #2196F3;
     fill: #2196F3;
 }
-.contacts-tel{
+.contacts-tel__link{
         display: flex;
         align-items: center;
         gap: 10px;
@@ -186,7 +186,7 @@ font-family: 'Raleway', sans-serif;
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
 }
-.contacts-tel:hover{
+.contacts-tel__link:hover{
     color: #2196F3;
     fill: #2196F3;
 }
